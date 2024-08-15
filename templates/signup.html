@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - AI Blog Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 font-sans antialiased flex items-center justify-center h-screen">
+
+    <!-- Signup Form -->
+    <div id="signup"
+        class="bg-white p-10 rounded-lg shadow-lg max-w-sm w-full mx-4 transition-transform transform hover:scale-105">
+        <h2 class="text-3xl font-bold mb-6 text-center text-gray-800">Sign Up</h2>
+        <form>
+            <div class="mb-5">
+                <label for="signupEmail" class="block text-gray-700 font-medium">Email</label>
+                <input id="signupEmail" type="email" placeholder="Enter your email"
+                    class="w-full p-3 border border-gray-300 rounded mt-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent">
+            </div>
+            <div class="mb-5">
+                <label for="signupPassword" class="block text-gray-700 font-medium">Password</label>
+                <input id="signupPassword" type="password" placeholder="Enter your password"
+                    class="w-full p-3 border border-gray-300 rounded mt-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent">
+            </div>
+            <div class="mb-6">
+                <label for="confirmPassword" class="block text-gray-700 font-medium">Confirm Password</label>
+                <input id="confirmPassword" type="password" placeholder="Confirm your password"
+                    class="w-full p-3 border border-gray-300 rounded mt-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent">
+            </div>
+            <button type="submit"
+                class="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700 transition-colors">Sign Up</button>
+        </form>
+        <p class="mt-6 text-center text-gray-700">Already have an account? <a href="login.html"
+                class="text-blue-600 hover:underline">Login</a>
+        </p>
+    </div>
+</body>
+
+</html>
