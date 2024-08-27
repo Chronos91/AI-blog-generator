@@ -1,0 +1,2 @@
+ai_blog/ffmpeg.exe filter=lfs diff=lfs merge=lfs -text
+C:/Users/HP/PycharmProjects/AI-blog/ai_blog/ffmpeg.exe filter=lfs diff=lfs merge=lfs -text
